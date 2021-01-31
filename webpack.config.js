@@ -9,6 +9,7 @@ const config = {
   },
   output: {
     filename: 'app.[hash:8].js',
+    publicPath: 'http://wuchu.github.io/aircraft/',
   },
   module: {
     rules: [

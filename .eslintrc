@@ -1,12 +1,21 @@
 {
-  "extends": [
-    "airbnb-typescript/base",
-    "prettier",
-    "prettier/@typescript-eslint"
+  "overrides": [
+    {
+      "files": ["**/*.ts", "*.ts"],
+      "extends": [
+        "airbnb-typescript/base",
+        "prettier",
+        "prettier/@typescript-eslint"
+      ],
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      }
+    },
+    {
+      "files": ["**/*.js", "*/js"],
+      "extends": ["airbnb/base", "prettier"]
+    }
   ],
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  },
   "rules": {
     "class-methods-use-this": "off"
   }
