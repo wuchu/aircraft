@@ -1,0 +1,25 @@
+{
+  "name": "aircraft",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "shx rm -rf ./dist && webpack"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "shx": "^0.3.3",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
