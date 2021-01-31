@@ -9,7 +9,7 @@ const config = {
   },
   output: {
     filename: 'app.[hash:8].js',
-    publicPath: 'http://wuchu.github.io/aircraft/',
+    publicPath: 'https://wuchu.github.io/aircraft/',
   },
   module: {
     rules: [
@@ -39,6 +39,7 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.ejs',
+      minify: false,
     }),
   ],
 };

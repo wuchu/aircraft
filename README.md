@@ -1,5 +1,9 @@
 # 仿微信飞机大战
 
+### 演示地址
+
+[点击我](https://wuchu.github.io/aircraft/index.html)
+
 ### 安装依赖
 
 ```shell
